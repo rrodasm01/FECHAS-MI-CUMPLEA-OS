@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Varela+Round&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Varela Round';
+	color: white;
+	background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1{
+	font-size: 3rem;
+  margin: 30px 0;
+  text-align: center;
+  text-shadow: 2px 2px #4e53ff;
+}
+
+.countdown-container{
+	display: flex;
+}
+
+	.countdown-container div{
+		text-align: center;
+	}
+
+		.countdown-container p{
+			font-size: 2rem;
+			text-shadow: 2px 2px #4e53ff;
+			margin: 0 5vw;
+		}
+
+		.countdown-container span{
+			font-size: 1rem;
+			text-shadow: 2px 2px #4e53ff;
+		}
+
+.nocolor-img{
+  filter: brightness(0);
+}
+
+.oculto{
+    display: none;
+}
+
+.mostrar{
+	text-align: center;
+	color: green;
+	font-size: 100px;
+}
+
+.mostrarOtonho{
+    background-image: url(imagenes/otoño.jpg);
+}
+
+.mostrarVerano{
+    background-image: url(imagenes/verano.jpg);
+}
+.mostrarInvierno{
+    background-image: url(imagenes/invierno.jpg);
+}
+.mostrarPrimavera{
+    background-image: url(imagenes/primavera.png);
+}
